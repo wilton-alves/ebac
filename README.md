@@ -17,7 +17,7 @@ programa calculadora.py
 Para executar o programa, baixe os dois arquivos no mesmo diretório e aplique a permissão
 de execução no arquivo calculadora.sh. Em seguida, execute o script.
 
-'''
+```bash
 chmod +x calculadora.sh
 ./calculadora.sh
-'''
+```
