@@ -2,6 +2,7 @@
 
 Repositório destinado às atividades e projetos do curso de Análise de Dados da EBAC.
 
+
 ## Atividade 1: Calculadora em Python (calculadora.py)
 Trata-se de um programa em python que realiza as quatro operações aritméticas básicas
 entre dois números fornecidos pelo usuário.
@@ -21,3 +22,7 @@ de execução no arquivo calculadora.sh. Em seguida, execute o script.
 chmod +x calculadora.sh
 ./calculadora.sh
 ```
+
+
+## Atividade 3: Manipulação de dados com SQL
+Os arquivos "sql1..." a "sql7..." possuem os scripts de criação de banco de dados e diversas manipulações realizadas no MySQL Workbench 8.0.
