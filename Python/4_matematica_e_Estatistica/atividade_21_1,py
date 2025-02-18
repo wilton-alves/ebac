@@ -1,0 +1,30 @@
+'''
+Agora, vamos fazer uma análise estatística mais aprofundada nos dados. Iniciaremos com os passos a seguir:
+
+Calcule a média, mediana, variância, desvio padrão, moda, mínimo, quartis e máximo do campo Desconto.
+Armazene cada resultado na sua respectiva variável, conforme o código inicial apresentado.
+'''
+
+
+import pandas as pd
+
+df = pd.read_csv('/data/ecommerce_preparados.csv')
+df = df.dropna()
+
+# Escreva seu código abaixo
+
+# Cálculo das estatísticas
+media = df['Desconto'].mean()
+mediana = df['Desconto'].median()  # Mediana dos Descontos
+variancia = df['Desconto'].var()  # Variância dos Descontos
+desvio_padrao = df['Desconto'].std()  # Desvio padrão dos Descontos
+
+# Como a função mode() retorna uma Série contendo todas as modas, [0] é usado para selecionar a primeira moda caso haja múltiplas.
+moda = df['Desconto'].mode()[0]  # Moda dos Descontos
+
+minimo = df['Desconto'].min()  # Valor mínimo do Desconto
+quartis = df['Desconto'].quantile([0.25, 0.50, 0.75])  # Quartis dos Descontos
+maximo = df['Desconto'].max()  # Valor máximo do Desconto
+
+# Exibe as primeiras linhas do DataFrame
+print(df.head())
