@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
 
-df = pd.read_csv('clientes-v3-preparado.csv')
+df = pd.read_csv('Python\\clientes-v3-preparado.csv')
 
 df_corr = df[['salario', 'idade', 'anos_experiencia', 'numero_filhos', 'nivel_educacao_cod', 'area_atuacao_cod', 'estado_cod']].corr()
 

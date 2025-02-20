@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
 
-df = pd.read_csv('clientes-v3-preparado.csv')
+df = pd.read_csv('Python\\clientes-v3-preparado.csv')
 
 # # Gráfico de dispersão
 # sns.jointplot(x='idade', y='salario', data=df, kind='scatter')

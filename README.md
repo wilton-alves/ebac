@@ -8,7 +8,7 @@ Trata-se de um programa em python que realiza as quatro operações aritméticas
 entre dois números fornecidos pelo usuário.
 
 O programa possui uma condicional (caso o usuário tenha entrado 0 (zero) como segundo
-número e possui um laço que permite ao usuário realizar um novo cálculo.
+número) e possui um laço que permite ao usuário realizar um novo cálculo.
 
 
 ### Atividade 2: Shell Script (calculadora.sh)
@@ -39,3 +39,12 @@ Função Lambda, IQR, Inconsistências, Substituições
 
 ### 3. Preparação de Dados
 Normalização, Transformação, Padronização
+
+### 4. Matemática e Estatística para Dados
+Conceitos Básicos, correlação, classificação, modelo de Regressão Linear, Modelo de Regressão Logística, Modelo de Árvore de Decisão
+
+### 5. Visualização de Dados
+Matplotlib, Seaborn
+
+### 6. Vizualização de Dados Avançada
+Plotly, Folium, DCC (Dash Core Components)

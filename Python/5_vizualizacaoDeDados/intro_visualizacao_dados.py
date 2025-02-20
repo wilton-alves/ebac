@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 
-df = pd.read_csv('clientes-v3-preparado.csv')
+df = pd.read_csv('Python\\clientes-v3-preparado.csv')
 
 # # Histograma
 # plt.hist(df['salario'])

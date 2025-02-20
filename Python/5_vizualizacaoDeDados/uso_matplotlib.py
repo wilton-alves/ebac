@@ -4,7 +4,7 @@ import pandas as pd
 # https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.plot.html#pandas
 # https://matplotlib.org/stable/users/explain/colors/colormaps.html
 
-df = pd.read_csv('clientes-v3-preparado.csv')
+df = pd.read_csv('Python\\clientes-v3-preparado.csv')
 # print(df.head(20).to_string())
 
 # # Gráfico de barras
