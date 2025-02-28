@@ -48,3 +48,13 @@ Matplotlib, Seaborn
 
 ### 6. Vizualização de Dados Avançada
 Plotly, Folium, DCC (Dash Core Components)
+
+
+## Tratamento de Dados e Big Data
+### 1. Fundamentos de Big Data
+
+### 2. Pyspark: Fundamentos e Instalação
+
+### 3. Pyspark: Definição e coleta de Dados
+
+### 4. Pyspark: Tratamento de Dados
