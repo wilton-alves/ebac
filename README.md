@@ -52,9 +52,16 @@ Plotly, Folium, DCC (Dash Core Components)
 
 ## Tratamento de Dados e Big Data
 ### 1. Fundamentos de Big Data
+Conceitos: Volume, velocidade, variedade, veracidade e Valor, SQL vs NoSQL, Data Lake, Data Warehouse, Handoop, Spark
 
 ### 2. Pyspark: Fundamentos e Instalação
+Introduçãoa o Apache Spark, Spark SQL, Spark no Google Colab
 
 ### 3. Pyspark: Definição e coleta de Dados
+Introdução ao RDD, map, flatmap, reduce
 
 ### 4. Pyspark: Tratamento de Dados
+Exploração e Limpeza de Dados, Integração, Validação de Dados
+
+### 5. Pyspark: Preparação de Dados
+Criação de variáveis e indicadores, pré processamento e modelagem com Spark ML, normalização e redução de dimensionalidade, intro ao K-Means e KNN, vetores, Silhouette Score
