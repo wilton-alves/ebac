@@ -65,3 +65,6 @@ Exploração e Limpeza de Dados, Integração, Validação de Dados
 
 ### 5. Pyspark: Preparação de Dados
 Criação de variáveis e indicadores, pré processamento e modelagem com Spark ML, normalização e redução de dimensionalidade, intro ao K-Means e KNN, vetores, Silhouette Score
+
+### 6. Pyspark: Agregações
+contagem, média, mínimo, máximo, média ponderada, média acumulativa, janelas de dados, médias móveis e análise de tendências sazonais.
